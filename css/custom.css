@@ -28,19 +28,26 @@
 }
 
 .jumbotron {
-	background-image: url("../images/blurred.jpg");
+	background-image: url("../images/banner.png");
 	background-repeat: none;
+	height: 200px;
+	padding: 20px;
 }
 
 body {
 	font-family: lato;
-	background-color: #EDE088;
+	background-color: #ECECEC;
+}
+
+.navbar {
+	margin-bottom: 0;
 }
 
 .navbar-brand {
 	font-family: 'Concert One', cursive;
 	font-size: 2em;
 	color: #615B37;
+	padding-top: 0
 }
 
 .btn-group-vertical, .list-group {
@@ -57,4 +64,12 @@ tr.success td {
 
 table {
 	background-color: white;
+	margin-top: -130px;
 }
+
+.primary {
+	background: #615B37;
+	color: white;
+}
+
+
