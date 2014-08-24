@@ -13,7 +13,7 @@
 }
 .data-vis	{
 	border: 1px dotted #615B37;
-	width: 1010px;
+	width: 990px;
 	height: 350px;
 	background-color: white;
 	margin-bottom: 10px;
@@ -28,7 +28,7 @@
 }
 
 .jumbotron {
-	background-image: url("../images/banner.png");
+	background-image: url("../images/banner.png ");
 	background-repeat: none;
 	height: 200px;
 	padding: 20px;
@@ -62,7 +62,7 @@ tr.success td {
 	color: #615B37;
 }
 
-table {
+table.dashboard {
 	background-color: white;
 	margin-top: -130px;
 }
@@ -72,4 +72,21 @@ table {
 	color: white;
 }
 
+table.upgrade tr td {
+font-size: 1.5em;
 
+}
+button.upgrade {
+	background-color: yellow;
+	border-radius: 20px;
+}
+
+.savings {
+	color: green;
+	font-size: 4em;
+}
+
+.score {
+	color: blue;
+	font-size: 4em;
+}
