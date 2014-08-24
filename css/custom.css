@@ -1,0 +1,60 @@
+.jumbotron h2 {
+	text-align: center;
+	font-family: 'Concert One', cursive;
+	font-size: 3em;
+	color: #615B37;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	font-family: 'Concert One', cursive;
+	font-size: 5em;
+	color: #615B37;
+}
+.data-vis	{
+	border: 1px dotted #615B37;
+	width: 1010px;
+	height: 350px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.medium-alert {
+	color: orange;
+}
+
+.low-alert {
+	color: yellow;
+}
+
+.jumbotron {
+	background-image: url("../images/blurred.jpg");
+	background-repeat: none;
+}
+
+body {
+	font-family: lato;
+	background-color: #EDE088;
+}
+
+.navbar-brand {
+	font-family: 'Concert One', cursive;
+	font-size: 2em;
+	color: #615B37;
+}
+
+.btn-group-vertical, .list-group {
+	border-radius: 50px;
+}
+
+tr.success td {
+	font-weight: bold;
+}
+
+.fa-arrow-circle {
+	color: #615B37;
+}
+
+table {
+	background-color: white;
+}

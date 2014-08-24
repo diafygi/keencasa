@@ -7,9 +7,11 @@
     <title>KeenCasa</title>
 
     <!-- Bootstrap -->
+   <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Concert+One' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,48 +52,67 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-      </form>
+      <h3 class="pull-right">Susan's Account</h3>
     
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 <div class="jumbotron">
+  <h2>Welcome Back Susan!</h2>
   <h1>Looking Good!</h1>
 </div>
-<div class="panel panel-default col-sm-3 pull-left">
-  <!-- Default panel contents -->
-  <div class="panel-heading">Alerts</div>
-  <!-- List group -->
-  <ul class="list-group">
-    <li class="list-group-item">Replace you water filter</li>
-    <li class="list-group-item">Replace lightbulb in refrigerator</li>
-    <li class="list-group-item">You have a leak</li>
-    <li class="list-group-item">Unusually high water usage</li>
-  </ul>
+<container>
+  <row>
+    <div class="btn-group-vertical pull-left col-sm-3">
+        <button type="button" class="btn btn-default">Alerts</button>
+        <button type="button" class="btn btn-default">You have a leak<i class="fa fa-2x fa-exclamation-triangle pull-right medium-alert"></i></button>
+        <button type="button" class="btn btn-default">Unusually high water usage<i class="fa fa-2x fa-exclamation-triangle pull-right low-alert"></i></button>
+        <button type="button" class="btn btn-default">Replace you water filter <i class="fa fa-2x fa-exclamation-triangle pull-right low-alert"></i></button>
+        <button type="button" class="btn btn-default">Replace lightbulb in refrigerator<i class="fa fa-2x fa-exclamation-triangle pull-right low-alert"></i></button>
+    </div>
+
+    <div class="data-vis col-sm-9">
+      <img src="images/drawing.png" alt="graphs" width="1000px" height="auto">
+    </div>
+  </row
+</container>
+
+<div class="col-sm-9 pull-right">
+  <table class="table">
+    <tr class="success">
+      <td>Appliance</td>
+      <td>Life Meter</td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Kenmore Refrigerator</td>
+      <td>5.4 years</td>
+      <td><i class="fa fa-2x fa-arrow-circle-right pull-right"></i></td>
+    </tr>
+    <tr class="">
+      <td>Maytag Washer</td>
+      <td>3.2 years</td>      
+      <td><i class="fa fa-2x fa-arrow-circle-right pull-right"></i></td>
+    </tr>
+    <tr class="">
+      <td>Maytag Dryer</td>
+      <td>3.2 years</td>   
+      <td><i class="fa fa-2x fa-arrow-circle-right pull-right"></i></td>
+    </tr>
+    <tr class="">
+      <td>Whirlpool Water Heater</td>
+      <td>8.9 years</td>   
+      <td><i class="fa fa-2x fa-arrow-circle-right pull-right"></i></td>
+    </tr>
+    <tr class="">
+      <td>Kenmore Air Conditioner</td>
+      <td>8.9 years</td>   
+      <td><i class="fa fa-2x fa-arrow-circle-right pull-right"></i></td>
+    </tr>
+  </table>
 </div>
-<div class="data-vis col-sm-9">
-</div>
-<div class="panel panel-default col-sm-9 pull-right">
-  <!-- Default panel contents -->
-  <div class="panel-heading">My Appliances</div>
-  <!-- List group -->
-  <ul class="list-group">
-    <li class="list-group-item">Whirlpool Dishwasher</li>
-    <li class="list-group-item">Kenmore Refrigerator</li>
-    <li class="list-group-item">Maytag Washer</li>
-    <li class="list-group-item">Maytag Dryer</li>
-    <li class="list-group-item">Whirlpool Water Heater</li>
-  </ul>
-</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
